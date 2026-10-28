@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <title>Петрович-Фейсбaк</title>
+</head>
+<body>
+    <div class="box-Heading">
+        <h1 class="Heading">FeceBak</h1>
+        <img class="fecebak-logo" src="./pics/fecebak-icon-n.png" alt="facebak">
+    </div>
+
+
+    <div class="main-Container">
+        <div class="PicContainer">
+            <img class="pfp" src="./pics/Petrovich.jpg" alt="Фото Петровича">
+            <div class="text-container">
+                <h2 class="hPfp">
+                    <img src="pics/checkmark.png" alt="Галочка" class='mark-image'>
+                    Петрович
+                </h2>
+                <p class="petrovich-info">Я Петрович. Хто хоче зі мною зіграти в партейку то пишіть мені. Я відповідаю в 13:00. А як хто хоче з салом на рибалку то пишіть в 19:00</p>
+            </div>
+        </div>
+
+        <div class="Shop">
+            <h2 class="heading-of-Shop">Магазин Петровича</h2>
+            <div class="item-1">
+                <img class="item-img1" src="./pics/mercedes-key.jpg" alt="ШедевроКлючіВідМерседес">
+                <div class="item1-text-Container">
+                    <h2 class="item1-h">
+                        Ключі від марсадес
+                    </h2>
+                    <p class="item1-info-text">Оригінальний ключ, майже не поцарапаний. Продаю через те що я вже продав машину Форшталену але без ключа і вот продаю. Продам всього то за <span class="item1-span">29 гривень і четвертину рубанцє</span></p>
+                    <button class="buy-button" onclick="buyButtonClick(this)">Купити</button>
+                </div>
+            </div>
+            <div class="item-2">
+                <img class="item-img2" src="./pics/tapku.jpg" alt="ШедевроТапки">
+                <div class="item2-text-Container">
+                    <h2 class="item2-h">
+                        Нові тапки
+                    </h2>
+                    <p class="item2-info-text">топові тапки підуть і на зиму і на літо і в клабаню з ними хоч в космос вони надійні як швейцарський годинник. Продам всього за <span class="item2-span">389 гривень і чтири рубанцє</span></p>
+                    <button class="buy-button" onclick="buyButtonClick(this)">Купити</button>
+            
+                </div>
+            </div>
+            <div class="item-3">
+                <img class="item-img3" src="./pics/stary-stшl-knihka.jpg" alt="ШедевроТапки">
+                <div class="item3-text-Container">
+                    <h2 class="item3-h">
+                    Супер стіл
+                    </h2>
+                    <p class="item3-info-text">Непоганий стіл в прибраному стані. Столу тільки 1.5 роки але дехто може подумати що йому більше але то не так. Прослужить вам він довго ще і підійде на любі свята. Продам всього за <span class="item3-span">130 гривень і 2 рубанцє</span></p>
+                    <button class="buy-button" onclick="buyButtonClick(this)">Купити</button>
+            
+                </div>
+            </div>
+            <div class="item-4">
+                <img class="item-img" src="./pics/Zigul.jpg" alt="Жига">
+                <div class="item-text-Container">
+                    <h2 class="item-h">
+                    Дідова Жигулька
+                    </h2>
+                    <p class="item-info-text">Стан просто прекрасний. Ви не звертайте увагу що там дах троха інший то просто як кабріолет. Вот а ще капот не поцарапаний все працює. Двигун не працює ой працює я хотів сказати і не потребує заміни. Амортизатори троха зношені але їхати можна. Ну кароче на такій на дачу не стидно їхати. Продам всього за <span class="item-span">1900 гривень і 6 рубанців</span></p>
+                    <button class="buy-button" onclick="buyButtonClick(this)">Купити</button>
+            
+                </div>
+            </div>
+            <div class="item-5">
+                <img class="item-img" src="./pics/Gaika.jpg" alt="Гайка">
+                <div class="item-text-Container">
+                    <h2 class="item-h">
+                    Гайка
+                    </h2>
+                    <p class="item-info-text">Просто гайка і все я найшов в хліві тай може комусь треба. Віддам за <span class="item-span">просто так</span></p>
+                    <button class="buy-button" onclick="buyButtonClick(this)">Купити</button>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="Story">
+        <div class="Story-1">
+            <img class="Story-img1" src="./pics/fishing.jpeg" alt="Петрович і риба">
+            <div class="Story1-text-Container">
+                <h2 class="Story1-h">
+                    Рибалка
+                </h2>
+                <p class="Story1-info-tag">#СамЗловив #Рибак #Профі #Риба #ПетровичТоп</p>
+                <p class="Story1-info-text">Там на фото то я просто трохи я тодій підстригcя тому не пишіть мені шо то не я. Там навіть по бородавці видно. А так то я зловив карася, та якщо ви не знали то то карась</p>
+            </div>
+        </div>
+        <div class="Story-2">
+            <img class="Story-img2" src="./pics/bilyj_hryb.jpg" alt="Білий гриб">
+            <div class="Story2-text-Container">
+                <h2 class="Story2-h">
+                    Гриби
+                </h2>
+                <p class="Story2-info-tag">#Гриби #Грибник #ПетровичТоп #СамЗбирав</p>
+                <p class="Story1-info-text">Вот такі класні гриби я нашов. Щоб вам тоже такі гриби попадалися то ставте лайки. Вот вам кстаті місце де я шукав то кароче ідете на право від моєї хати і там буде такий дріт, перелазите через забор і ідете до великого дерева далі крутитися на місці, потім зупиняєтеся і в яку сторону дивитися туда ідіть там гриби</p>
+            </div>
+        </div>
+        <div class="Story-2-1">
+            <img class="Story-img2-1" src="./pics/oldiePC.jpg" alt="Старий пк всередині">
+            <div class="Story2-text-Container">
+                <h2 class="Story2-h">
+                    Проблема з старим кампутером
+                </h2>
+                <p class="Story2-info-tag">#Допомога #Залізо #Кампутер #ПК #ПетровичТоп #СамЗбирав #Intel_Xeon #PC #Петровииич #Алабай #Fecebak #Help #Problem #Що_Не_Так #Бригаду #Не_розумію</p>
+                <p class="Story1-info-text">Вот дивіться. Розказую. Значіть недавно зібрав собі такий топовий пк. Внук казав що буде тянути якись там кібер пенк на якихось 160 фіпісі. Я думаю 160 то напевне багато. Але якщо то мало то ви скажіть! Так вот в чому ж проблєма. Спочатку він навіть працював! В мене там стояла якась.. Зараз спитаюся в внучка..<br>Розпитався! Він мені виписав на листку, вот якась Windows XP. Також він казав що вона нова! Значіть в чому проблема.. Я виріший відкрити на ньому FeceBak.<br>Не на диво він навіть відкрився! Але потім я нечайно доторкнувся ногою до кампутера і в мене стався опік 3 степені.<br> Я привіз пк до свого майстра "Коноплевич" він дуже розбирається в пк і сказав поставити мені новий блок живлення (Якись KCAS..). Але коли я почув ЦІНУ я зразу передумав! Потім він мені запропонував поставити водяне охолодження. Я навіть не став питатися як таке зробити бо знав!<br> Я відніс ПК до хати. І пішов набирати цілий тазік холодної води. Коли вона набралася я поставив її біля пк і зайшов в Fecebak, перед тим поставивши в пк термометр. І коли температура піднялася більше 120, я вилив на ПК цілий тазік холодної води. Звісно та, температуру я знизив але чомусь Пк більше не включався.. <br>Хтось знає як його відремонтувати?? Допоможіть</p>
+                <button id="repostBtn" class="repost-button" onclick="makeRepost()">Зробити репост</button>
+                <button id="likeBtn" class="like-button" onclick="toggleButton('likeBtn')">Подобається пост</button>
+                <button id="dislikeBtn" class="dislike-button" onclick="toggleButton('dislikeBtn')">Не подобається пост</button>
+                <button id="saveBtn" class="save-button" onclick="makeSave()">Зберегти пост!</button>
+            </div>
+        </div>
+        <div class="Story-3">
+            <h2 class="Story3-h">
+                Петрович пропонує супер пропозицію!
+            </h2>
+            <div class="Proposition-block">
+                <p class="Proposition">Всього за <span class="Proposition-span">99 Гривень, 99 копійок, і пів рубанця</span> Петрович роскаже де знаходити гриби із шансом 99.98998899199%!!! Інструкція приїде по новій пошті. Якщо не приїхала то до Гальки писати</p>
+            </div>
+            <button class="buy-button" onclick="buyButtonClick(this)">Купити</button>
+            <script src="script.js"></script>
+        </div>
+        <div class="Story-4">
+            <h2 class="Story4-h">
+                Історія
+            </h2>
+            <div class="text-block4">
+                <p class="text4">Всім привіт слідкувачі за моїм фесебаком в мене недавно появилося цікаве питання. Вот дивіться я собі спокійно іду іду нікого не чіпаю і вот захожу в кімнату до внучка. А він грає в якись браво старса. І він каже якесь таке слово "топ". Вот і чи міг б мені хтось пояснити що то за слово таке странне. Дід вже скільки живе думав що вже цілий словник вивчив а тут щось нове. І я вот беруся за свій словник 1943 року а там такого нема. Ну вот поясніть мені що таке топ і коли його казати. А ну і ще поясніть що таке браво старса.</p>
+            </div>
+        </div>
+
+        <div class="Story-5">
+            <img class="Story-img5" src="./pics/Crypto-trading-screen.jpg" alt="Крипто трейдинг, екран">
+            <div class="Story2-text-Container">
+                <h2 class="Story2-h">
+                    Кирптовалюта: Петрович пробує розібратися в нових технологіях.
+                </h2>
+                <p class="Story2-info-tag">#Крипта #Технології #Допомога #Хелп #ПетровичТоп #Алабай #Бригаду #Гроші #Валюта #Трейдинг</p>
+                <p class="Story1-info-text">Вас вітає Петрович. Я бачив як люди займаються якимось "Трейдингом" я спочатку не дуже поняв але мені третє класник сказав що це кароче треб купити біткойн а потім як він буде дорожчий, продати. Звучить дуже легко! Приблизно так ми заробляли гроші з Григоровичем як хліб в ціні виріс.<br>Вот ТАК я вирішив купити біткойн. Але мені треба було найти ще де я можу цей біткойн купити! Я обійшов ЦІЛИЙ базар а там такого НЕМА! Я подумав що то елітна реч значіть і поїхав у місто. Там з мене всі сміялися тільки, а Біткойн ніхто продати не хотів... ВОТ допоможіть ДЕ його купити??????</p>
+                
+                <button id="repostBtn2" class="repost-button" onclick="makeRepost2()">Зробити репост</button>
+                <button id="likeBtn2" class="like-button" onclick="toggleButton2('likeBtn2')">Подобається пост</button>
+                <button id="dislikeBtn2" class="dislike-button" onclick="toggleButton2('dislikeBtn2')">Не подобається пост</button>
+                <button id="saveBtn2" class="save-button" onclick="makeSave2()">Зберегти пост!</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
